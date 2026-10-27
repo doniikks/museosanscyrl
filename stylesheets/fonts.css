@@ -1,5 +1,6 @@
 @font-face {
   font-family: "Museo Sans Cyrl";
+  font-family: "museosanscyrl";
   font-weight: 100;
   src:
     url("../fonts/museosanscyrl-100.woff2") format("woff2"),
@@ -7,6 +8,7 @@
 }
 @font-face {
   font-family: "Museo Sans Cyrl";
+  font-family: "museosanscyrl";
   font-weight: 300;
   src:
     url("../fonts/museosanscyrl-300.woff2") format("woff2"),
@@ -14,6 +16,7 @@
 }
 @font-face {
   font-family: "Museo Sans Cyrl";
+  font-family: "museosanscyrl";
   font-weight: 500;
   src:
     url("../fonts/museosanscyrl-500.woff2") format("woff2"),
@@ -21,6 +24,7 @@
 }
 @font-face {
   font-family: "Museo Sans Cyrl";
+  font-family: "museosanscyrl";
   font-weight: 700;
   src:
     url("../fonts/museosanscyrl-700.woff2") format("woff2"),
@@ -28,6 +32,7 @@
 }
 @font-face {
   font-family: "Museo Sans Cyrl";
+  font-family: "museosanscyrl";
   font-weight: 900;
   src:
     url("../fonts/museosanscyrl-900.woff2") format("woff2"),
