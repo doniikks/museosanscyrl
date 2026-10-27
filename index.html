@@ -1,12 +1,193 @@
 <!doctype html>
-<html lang="">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheets" href="stylesheets/style.css" />
+    <title>Типографический музей — Museo Sans Cyrl</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
   <body>
-    <p>whisdbvnkcsjofewg9rhibvnsdkmlfgru9ivnkdmflekpwgrveinkd</p>
+    <header class="hall hall-entrance" id="top">
+      <div class="hall-content">
+        <p class="entrance-label">Типографический музей</p>
+        <h1 class="entrance-title">Museo&nbsp;Sans&nbsp;Cyrl</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="hall hall-history">
+        <div class="hall-content">
+          <h2 class="hall-title">Зал истории</h2>
+
+          <div class="history-list">
+            <article class="history-card history-card-thinker">
+              <p class="history-date">Март&nbsp;2008</p>
+              <p class="history-text">
+                Создание экс&shy;пе&shy;ри&shy;мен&shy;таль&shy;ного
+                шрифта&nbsp;Museo
+              </p>
+            </article>
+
+            <article class="history-card history-card-bust">
+              <p class="history-date">Сентябрь&nbsp;2008</p>
+              <p class="history-text">
+                Создание версии Museo без&nbsp;засечек&nbsp;— Museo&nbsp;Sans
+              </p>
+            </article>
+
+            <article class="history-card history-card-discobolus">
+              <p class="history-date">Сентябрь&nbsp;2012</p>
+              <p class="history-text">
+                Создание Museo&nbsp;Sans&nbsp;Cyrl&nbsp;— кириллической
+                версии&nbsp;шрифта
+              </p>
+            </article>
+          </div>
+
+          <div class="timeline">
+            <span class="timeline-dot timeline-dot-first"></span>
+            <span class="timeline-dot timeline-dot-second"></span>
+            <span class="timeline-dot timeline-dot-third"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="hall hall-anatomy">
+        <div class="hall-content">
+          <h2 class="hall-title">Выставка анатомии</h2>
+
+          <p class="anatomy-note anatomy-note-corners">Смягчённые углы</p>
+          <p class="anatomy-note anatomy-note-aperture">Открытая апертура</p>
+          <p class="anatomy-note anatomy-note-contrast">Низкая контрастность</p>
+          <p class="anatomy-note anatomy-note-geometry">
+            Скруглённая геометрия
+          </p>
+        </div>
+      </section>
+
+      <section class="hall hall-variable">
+        <div class="hall-content">
+          <h2 class="hall-title">Интерактивный зал вариативности</h2>
+
+          <p class="variable-sample">
+            В&nbsp;залах музея <span class="nowrap">шеф-эксперт</span> чётко
+            бдит: юный цыган рассыпал хрупкий ковш&nbsp;фасоли
+          </p>
+
+          <div class="weight-picker">
+            <p class="weight-aa weight-aa-light">Aa</p>
+
+            <div class="weight-scale">
+              <div class="weight-options">
+                <label class="weight-option weight-option-100" for="weight-100">
+                  <input type="radio" name="weight" id="weight-100" />100
+                </label>
+                <label class="weight-option weight-option-300" for="weight-300">
+                  <input type="radio" name="weight" id="weight-300" />300
+                </label>
+                <label class="weight-option weight-option-500" for="weight-500">
+                  <input
+                    type="radio"
+                    name="weight"
+                    id="weight-500"
+                    checked
+                  />500
+                </label>
+                <label class="weight-option weight-option-700" for="weight-700">
+                  <input type="radio" name="weight" id="weight-700" />700
+                </label>
+                <label class="weight-option weight-option-900" for="weight-900">
+                  <input type="radio" name="weight" id="weight-900" />900
+                </label>
+              </div>
+              <div class="weight-track"></div>
+            </div>
+
+            <p class="weight-aa weight-aa-bold">Aa</p>
+          </div>
+
+          <div class="italic-row">
+            <p class="italic-label">
+              <label for="italic-checkbox">Italic</label>
+            </p>
+            <label class="switch">
+              <input type="checkbox" id="italic-checkbox" checked />
+              <span class="switch-track">
+                <span class="switch-knob"></span>
+              </span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="hall hall-glyphs">
+        <div class="hall-content">
+          <h2 class="hall-title">Галерея глифов</h2>
+
+          <div class="glyph-row glyph-row-first">
+            <img
+              class="glyph-frame glyph-integral"
+              src="images/glyph-integral.jpg"
+              alt="Глиф: знак интеграла"
+            />
+            <img
+              class="glyph-frame glyph-eszett"
+              src="images/glyph-eszett.jpg"
+              alt="Глиф: немецкая буква эсцет"
+            />
+            <img
+              class="glyph-frame glyph-three-quarters"
+              src="images/glyph-three-quarters.jpg"
+              alt="Глиф: дробь три четверти"
+            />
+            <img
+              class="glyph-frame glyph-zhe-breve"
+              src="images/glyph-zhe-breve.jpg"
+              alt="Глиф: буква Ж с краткой"
+            />
+          </div>
+
+          <div class="glyph-row glyph-row-second">
+            <img
+              class="glyph-frame glyph-oe"
+              src="images/glyph-oe.jpg"
+              alt="Глиф: лигатура OE"
+            />
+            <img
+              class="glyph-frame glyph-sigma"
+              src="images/glyph-sigma.jpg"
+              alt="Глиф: знак суммы"
+            />
+            <img
+              class="glyph-frame glyph-tenge"
+              src="images/glyph-tenge.jpg"
+              alt="Глиф: знак тенге"
+            />
+            <img
+              class="glyph-frame glyph-empty-set"
+              src="images/glyph-empty-set.jpg"
+              alt="Глиф: знак пустого множества"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="hall hall-exit">
+      <div class="hall-content">
+        <h2 class="hall-title">Выход</h2>
+
+        <div class="exit-info">
+          <div class="exit-info-left">
+            <p class="exit-text">Б26Д309/2026</p>
+            <p class="exit-text">Студент: Андросов Даниил</p>
+          </div>
+          <div class="exit-info-right">
+            <p class="exit-text">Куратор код: Комкова Анна</p>
+            <p class="exit-text">Куратор Дз: Цветников Николай</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
